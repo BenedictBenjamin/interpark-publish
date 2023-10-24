@@ -8,22 +8,33 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
   outline-style: none;
+  box-sizing: border-box;
+}
+a {
+  color: #111;
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+img {
+  border: 0;
+  vertical-align: middle;
 }
 html {
   font-size: 10px;
 }
 body {
-  font-size: 1.3rem;
   /* 폰트크기 */
   font-family: "Pretendard", sans-serif;
-/* 글꼴 */
+  font-size: 1.3rem;
+  /* 글꼴 */
   font-weight: 400;
-  /* 글짜 굵기 */
-  color: #000000;
   /* 글짜 색깔 */
   line-height: 1;
+  /* 글짜 굵기 */
+  color: #000000;
   letter-spacing: -0.64px;
   word-break: keep-all;
 }
