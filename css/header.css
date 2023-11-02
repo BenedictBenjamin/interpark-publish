@@ -1,11 +1,11 @@
-/* 상단영역  */
+/* 상단 영역 */
 .header {
   position: relative;
   width: 100%;
   height: 160px;
-  border-bottom: 1px solid #ededed;
+  border-bottom: 1px solid #ebebeb;
 }
-/* 백그라운드 뒤배경 */
+
 .header-inner {
   position: relative;
   width: 1280px;
@@ -15,9 +15,10 @@
   margin: 0px auto;
   padding-top: 1px;
 }
-/* 백그라운드 뒤배경 안에 큰틀 */
+
 .header-top {
   position: relative;
+
   width: 100%;
   height: 50px;
   display: flex;
@@ -26,12 +27,14 @@
 }
 .header-top-left {
   position: relative;
+
   width: 625px;
   height: 50px;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
+
 .logo {
   position: relative;
   width: 150px;
@@ -40,6 +43,7 @@
   display: block;
   background-image: url("../images/logo.svg");
 }
+
 .header-search {
   position: relative;
 
@@ -82,12 +86,14 @@
   /* 커서 바꾸기 */
   cursor: pointer;
 }
+
 .header-top-right {
   position: relative;
+
   width: 210px;
   height: 50px;
   display: flex;
-  /*  세로 중앙 */
+  /* 세로 중앙 */
   align-items: center;
 }
 .member-menu {
@@ -110,8 +116,10 @@
 .mypage-bt img {
   margin-left: 5px;
 }
+
 .header-bottom {
   position: relative;
+
   width: 100%;
   height: 30px;
   display: flex;
@@ -136,10 +144,11 @@
   font-size: 1.6rem;
   font-weight: 600;
 }
+
 /* 
-after 와 befor 는 기본적으로 inline 이다.
-width, height, margin, padding 원할하지 않다.
-그래서 많은사람들 은 사람들이  display 별도로 준다.
+  after 와 before 는 기본적으로 inline 이다. 
+  width, height, margin, padding 원활하지 않다.
+  그래서 많은 사람들이 display 별도로 준다.
 */
 .icon-hot::after {
   content: "";
@@ -149,19 +158,21 @@ width, height, margin, padding 원할하지 않다.
   display: block;
   margin-left: 6px;
 
-  background: url("../images/badge_hot.svg") no-repeat;
+  background: url("../images/badge_hot.svg") no-repeat center;
 }
+
 .header-cate li a img {
   position: relative;
   width: 30px;
   height: auto;
   margin-right: 6px;
 }
+
 .header-today-menu {
   position: relative;
   display: flex;
 }
-/* 라인 넣기 */
+/* 라인넣기 */
 .header-today-menu::before {
   content: "";
   position: absolute;
@@ -178,7 +189,6 @@ width, height, margin, padding 원할하지 않다.
   position: relative;
   margin-right: 22px;
 }
-
 .header-today-menu li a {
   position: relative;
   display: flex;
@@ -186,7 +196,6 @@ width, height, margin, padding 원할하지 않다.
   font-size: 1.6rem;
   font-weight: 600;
 }
-
 .header-today-menu li a img {
   position: relative;
   width: 30px;

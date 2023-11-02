@@ -4,6 +4,8 @@
 @import url("layout.css");
 @import url("header.css");
 @import url("visual.css");
+
+@import url("recommend.css");
 @import url("footer.css");
 
 * {
@@ -23,18 +25,19 @@ img {
   border: 0;
   vertical-align: middle;
 }
+
+button {
+  font-family: "Pretendard", sans-serif;
+}
+
 html {
   font-size: 10px;
 }
 body {
-  /* 폰트크기 */
   font-family: "Pretendard", sans-serif;
   font-size: 1.3rem;
-  /* 글꼴 */
   font-weight: 400;
-  /* 글짜 색깔 */
   line-height: 1;
-  /* 글짜 굵기 */
   color: #000000;
   letter-spacing: -0.64px;
   word-break: keep-all;
